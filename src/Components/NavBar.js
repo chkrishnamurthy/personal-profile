@@ -1,4 +1,4 @@
-import { FaFileAlt, FaBars } from "react-icons/fa";
+import { FaFileAlt } from "react-icons/fa";
 
 const NavBar = () => {
   return (
