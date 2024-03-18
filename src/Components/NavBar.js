@@ -1,6 +1,16 @@
+import React, { useState } from "react";
+
 import { FaFileAlt } from "react-icons/fa";
+import { IoMdSunny } from "react-icons/io";
+import { IoMdMoon } from "react-icons/io";
 
 const NavBar = () => {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+  };
+
   return (
     <>
       <nav>
@@ -24,6 +34,8 @@ const NavBar = () => {
                 </div>
               </span>
             </div>
+
+            {/* // */}
           </div>
         </div>
       </nav>
