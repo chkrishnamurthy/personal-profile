@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 import { FaFileAlt } from "react-icons/fa";
 
 const NavBar = () => {
