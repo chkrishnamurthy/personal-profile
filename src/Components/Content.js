@@ -1,6 +1,6 @@
 const Content = () => {
   return (
-    <div className="font-source-code-pro font-mono text-white">
+    <div className="font-source-code-pro font-mono text-white mt-16">
       <div className="flex flex-col gap-6">
         <p className="text-4xl font-extrabold">{`<html>`}</p>
         <p className="text-4xl font-extrabold">{`<head>`}</p>

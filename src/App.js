@@ -5,9 +5,9 @@ import Content from "./Components/Content";
 
 function App() {
   return (
-    <div class="min-h-screen bg-[#1E2B3B] font-sans">
+    <div class="font-sans">
       <NavBar />
-      <div className="p-3 w-8/12 m-auto">
+      <div className="p-3 w-8/12 m-auto mt-28">
         <Introduction />
         <Content />
       </div>

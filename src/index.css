@@ -6,6 +6,18 @@
 @tailwind utilities;
 
 
-.font-source-code-pro {
+
+body{
+    background-color: #1E2B3B;
     font-family: 'Source Code Pro', monospace;
-  }
+    user-select: none;
+    cursor: url('/public/images/icons8-cursor-40.png'), auto;
+}
+
+
+
+/* Define a custom cursor for clickable elements */
+a, button, [role="button"], [role="link"], [onclick] {
+    cursor: url('/public/images/icons8-cursor-40\ hand.png'), pointer; /* Replace 'hand-cursor.png' with your hand cursor image */
+    /* Optionally, you can add a fallback cursor type */
+}
